@@ -1,0 +1,20 @@
+.signupForm {
+  margin-top: 25px;
+
+  &__checkbox {
+    display: flex;
+    align-items: center;
+
+    & > label {
+      margin-left: 10px;
+      color: #616b77;
+      font-weight: 500;
+      font-size: 14px;
+      text-align: left;
+    }
+  }
+
+  &__signup-button {
+    margin-top: 20px;
+  }
+}

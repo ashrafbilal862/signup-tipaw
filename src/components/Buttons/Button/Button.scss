@@ -1,0 +1,17 @@
+.button {
+  border-radius: 15px;
+  height: 40px;
+  padding: 0px 24px;
+  border: none;
+  min-width: 120px;
+  background-color: var(--orange-color-1);
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.button--block {
+  width: 100%;
+}

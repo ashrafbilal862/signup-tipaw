@@ -1,0 +1,56 @@
+.input {
+  margin-bottom: 15px;
+
+  &__label {
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+    color: var(--gray-color-2);
+    font-size: 14px;
+    font-weight: 700;
+
+    & > span {
+      color: red;
+    }
+  }
+
+  &__container {
+    position: relative;
+    display: flex;
+  }
+
+  &__control {
+    width: 100%;
+    padding: 7px 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid var(--white-color-2);
+    color: var(--gray-color-1) !important;
+    background: var(--color-white);
+    padding-right: 42px;
+    user-select: none;
+    &--invalid {
+      border: 1px solid red;
+    }
+  }
+
+  &__error-msg {
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 7px 0;
+    text-align: left;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 2px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
